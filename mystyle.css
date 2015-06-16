@@ -1,0 +1,92 @@
+/* {
+	margin : 8px;
+	border : red solid 2px;
+}*/
+
+body {
+	padding: 20px 10px;
+	font-family: Arial;
+	max-width: 2000px;
+	margin: 0 auto;
+	font-size: 1.4em;
+}
+
+h1 {
+	background-color: #1A2944;
+	text-align : center;
+	color: white;
+	border-radius: 10px;
+	margin: 10px auto;
+	
+}
+ 
+
+
+
+h2 {
+	background-color : #616979;
+	text-align: center;	
+	border-radius : 10px;
+	color : white;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+h3 {
+	background-color : #8B857C;
+	border-radius : 10px;
+	color : white;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+
+
+
+
+
+
+
+/*Lesson Notes:
+HTML controls the structure of a web page and CSS controlls the style.
+DOM is the treelike structure of a page
+CSS stands for Cascading style sheets
+attribue: value 
+e.g color: red
+
+
+if you want to write code comments (like htis)
+<!---this is my comment within code when using HTML---->
+/* this is me writing notes in CSS */
+/*Divs = big blocks 
+Spand = reginon in text
+ID= uniquly identify elemnts (only one thing)
+Class= used to identify stules like the sertain things whinin HTML.
+
+To adde pictures you whave to save this in a recource forlder. du not use / in front of folder
+TOC = Table of content
+
+How to write header into HTML
+<h1 class="title"> MY PAGE </h1>"
+
+The box model in HTML (focus)below outside going in:
+
+Margins
+Border
+padding
+text
+
+Remember box-sizing; flex-box (will make a box flex in size whithin a box.)
+
+REMEMBER: Code------>Test------->Refine
+How to setup web page:
+1.	Look for natural boxes
+2. 	Look for repeated styles & semantic elements
+3. 	Write your html.
+4.	Apply style (from biggest ---> smallest)
+5.	Fix things
+/*
+
+
+
+
