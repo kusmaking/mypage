@@ -2,6 +2,9 @@
 	margin : 8px;
 	border : red solid 2px;
 }*/
+* {
+	background-color: #f3f3f3;
+}
 
 body {
 	padding: 20px 10px;
@@ -19,9 +22,12 @@ h1 {
 	margin: 10px auto;
 	
 }
- 
+/*showing that I can controll styling all my <b> */
+b {
+	font-style: italic;
+	text-decoration: underline;
 
-
+}
 
 h2 {
 	background-color : #616979;
@@ -40,8 +46,12 @@ h3 {
 	margin: 10px auto;
 }
 
-
-
+code{
+	color: #303030;
+	background-color: #f3f3f3;
+	border: solid 1px #dcdcdc;
+}
+ 
 
 
 
