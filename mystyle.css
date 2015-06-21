@@ -60,12 +60,12 @@ code{
 	border: solid 1px #dcdcdc;
 }
 
-
-.concept_discription {
-	font-weight: lighter; 
-	margin: 20px;
+.code-comments{
+	font-style:italic;color:red;
+	text-transform:full-width;
 }
- 
+
+
 
 
 
@@ -83,7 +83,7 @@ if you want to write code comments (like htis)
 <!---this is my comment within code when using HTML---->
 /* this is me writing notes in CSS */
 /*Divs = big blocks 
-Spand = reginon in text
+Span = reginon in text
 ID= uniquly identify elemnts (only one thing)
 Class= used to identify stules like the sertain things whinin HTML.
 
