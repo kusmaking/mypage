@@ -6,6 +6,14 @@
 	background-color: #f3f3f3;
 }
 
+.lessons {
+	background-color: #1A2944;
+	border-radius: 10px;
+	
+	padding: 10px;
+	margin: 10px auto;
+}
+
 body {
 	padding: 20px 10px;
 	font-family: Arial;
@@ -22,7 +30,7 @@ h1 {
 	margin: 10px auto;
 	
 }
-/*showing that I can controll styling all my <b> */
+/*showing that I can controll styling all my <b>, keeps me from repeating myself*/
 b {
 	font-style: italic;
 	text-decoration: underline;
@@ -32,7 +40,7 @@ b {
 h2 {
 	background-color : #616979;
 	text-align: center;	
-	border-radius : 10px;
+	border-radius: 5px;
 	color : white;
 	padding: 10px;
 	margin: 10px auto;
@@ -40,7 +48,7 @@ h2 {
 
 h3 {
 	background-color : #8B857C;
-	border-radius : 10px;
+	border-radius : 5px;
 	color : white;
 	padding: 10px;
 	margin: 10px auto;
@@ -50,6 +58,12 @@ code{
 	color: #303030;
 	background-color: #f3f3f3;
 	border: solid 1px #dcdcdc;
+}
+
+
+.concept_discription {
+	font-weight: lighter; 
+	margin: 20px;
 }
  
 
