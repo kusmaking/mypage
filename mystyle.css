@@ -3,15 +3,7 @@
 	border : red solid 2px;
 }*/
 * {
-	background-color: #f3f3f3;
-}
-
-.lessons {
-	background-color: #1A2944;
-	border-radius: 10px;
-	
-	padding: 10px;
-	margin: 10px auto;
+	/*background-color: #f3f3f3;*/
 }
 
 body {
@@ -23,9 +15,9 @@ body {
 }
 
 h1 {
-	background-color: #1A2944;
+	/*background-color: #1A2944;*/
 	text-align : center;
-	color: white;
+	color: #1A2944;
 	border-radius: 10px;
 	margin: 10px auto;
 	
@@ -38,26 +30,44 @@ b {
 }
 
 h2 {
-	background-color : #616979;
-	text-align: center;	
-	border-radius: 5px;
-	color : white;
-	padding: 10px;
-	margin: 10px auto;
+	text-align: left;	
+	border-radius: 5px;		
+	padding: 10px 10px 10px 20px;
+	margin: 0px;
+	color: white;
 }
 
 h3 {
-	background-color : #8B857C;
-	border-radius : 5px;
-	color : white;
-	padding: 10px;
-	margin: 10px auto;
+	text-align: center;
+	color : #1A2944;
+	font-weight: bold;
+	padding: 10px 10px 10px 20px;
+	margin: 0px;
 }
 
 code{
 	color: #303030;
 	background-color: #f3f3f3;
 	border: solid 1px #dcdcdc;
+}
+
+.lesson {
+	background-color: #1A2944;
+	border-radius: 10px;	
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	
+	margin: 10px auto;
+}
+
+.concept-description{
+	background-color : #DDDDDD;
+	border-radius: 5px;
+	padding: 10px;	
+	color: #2C2C2C;		
+	margin: 0 20px 20px 20px;
 }
 
 .code-comments{
