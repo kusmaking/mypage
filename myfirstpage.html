@@ -63,7 +63,7 @@
 					<p>Below is a link to the text editor I am going to use going forward.</p>
 					<div>
 						<a href="http://www.sublimetext.com/">
-							<img src="img/sublimetext.png" alt="sublime_text logo" width="500">
+							<img src="img/sublimetext.png" alt="sublime_text logo" width="100px">
 						</a>
 					</div>
 				</div>	
@@ -186,21 +186,34 @@
 					<p>A string is a text in a variable.<br> A quote surronded by text. E.G &#x27;I am a string!&#x27; or &#x27;I am a string!&#x27;, or &#x22;I'm happy!&#x22;. <em>It has to start and finish with the same quote (single or double)</em><br>
 					Can not add variable string and + something (if something is not defined)
 					however if you write a string and * 8, you will get that string  8 times.<br>
-					<table style="width 100%">Indexing String
-						<tr>
-							<td>&#x3C;string&#x3E;</td>
+					</p>
+					<h3 class="concept-title">Indexing String</h3>
+						<p>
+						<table class="Indexing-string">
+						<tr class="table">
+							<td>&#x3C;string&#x3E;</td> 
 							<td>[&#x3C;expression&#x3E;]</td>
+							<td>= Result</td>
 						</tr>
+						</p>
+						</table>
+						<p>
+						<table>
 						<tr>
 							<td>&#x27;text&#x27;</td>
 							<td>[3]</td>
 							<td>= s (counts the lettes as 0123)</td>
 						</tr>
-
-
-						</table>
-
-					
+						</table>					
+						</p>
+					<h3 class="concept-title">Selecting Sub Sequences</h3>	
+					<p> In the in the picture below you will see that you can move and count your symobls/text from back to front in a sting and your string characters will be selected.<br>
+						<img src="img/string-slicing.png" width="500px" alt="stringslicing"><br>
+						word = &#x27;assume&#x27;<br>
+						print word [3]------&#x3E; counts 0123 and will find the letter &#x22;u&#x22;<br>
+						print word [4:6]----&#x3E; counts between letters 4 and 6 and finds &#x22;me&#x22;<br>
+						print word [4:]-----&#x3E; counts from letter 4 until the end: result = &#x22;me&#x22;<br>
+						Print word [:6]-----&#x3E; counts from the beginning and six letter out = &#x22;assume&#x22;<br>
 					</p>
 				</div>
 			</div>
